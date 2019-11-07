@@ -4,7 +4,18 @@ What need does this solve?
 Conference apps are a great way to demonstrate real life applications to employers. Every conference needs a central source of information, and the abilities to do important time management tasks such as prioritize certain workshops or add in events.
 
 What makes this app different or memorable? 
-By its very nature, this is a controversial app. Psychedelics research is still widely considered taboo, even within the scientific community. 
+By its very nature, this is a controversial app. Psychedelics research is still widely considered taboo, even within the scientific community. Since the federal criminalization act of 1968, LSD research was haulted, including (but not limited to) its applications in psychotherapy for treating a multitude of illnesses. By creating the companion app to the summit, I am supporting psychedelic research and furthering its cause by making it more accessible to greater amounts of people, while displaying the recent accolades the work done by this organization has achieved.
+
+
+
+PLACEHOLDER FOR MARKUP IMAGES
+
+
+
+
+
+
+Roles by group member: This is a solo project. I will be doing the enitrety of the work.
 
 
 
