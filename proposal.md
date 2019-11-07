@@ -7,12 +7,8 @@ What makes this app different or memorable?
 By its very nature, this is a controversial app. Psychedelics research is still widely considered taboo, even within the scientific community. Since the federal criminalization act of 1968, LSD research was haulted, including (but not limited to) its applications in psychotherapy for treating a multitude of illnesses. By creating the companion app to the summit, I am supporting psychedelic research and furthering its cause by making it more accessible to greater amounts of people, while displaying the recent accolades the work done by this organization has achieved.
 
 
-
-PLACEHOLDER FOR MARKUP IMAGES
-
-
-
-
+link to website design mockup
+https://imgur.com/a/I72QGex
 
 
 Roles by group member: This is a solo project. I will be doing the enitrety of the work.
