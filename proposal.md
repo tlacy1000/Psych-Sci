@@ -19,3 +19,8 @@ Roles by group member: This is a solo project. I will be doing the enitrety of t
 
 
 
+Project management system: Trello
+Here's a link to my Trello board: https://trello.com/b/frPMWjGj/psych-sci
+
+
+
