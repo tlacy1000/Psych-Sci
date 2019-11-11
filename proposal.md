@@ -11,12 +11,14 @@ link to website design mockup
 https://imgur.com/a/I72QGex
 
 
-Roles by group member: This is a solo project. I will be doing the enitrety of the work.
+Roles by group member: This is a solo project. 
 
 
 
 Project management system: Trello
 Here's a link to my Trello board: https://trello.com/b/frPMWjGj/psych-sci
 
+
+***This is solely a student's homework assignment, and not intended to be for commercial use in any way, shape or form
 
 
