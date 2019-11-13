@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Psychedelic Science Summit 2020",
   "main": "index.js",
-  "scripts": {
-    "start": "gulp"
-  },
   "author": "colorlib",
   "license": "CC-BY-3.0",
   "devDependencies": {},
