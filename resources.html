@@ -97,17 +97,21 @@
                 <!-- Heading -->
                 <div class="col-12">
                     <div class="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
-                        <p>Summit Meeting</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" style="container">
                 <h4> Have a good resource for your fellow researchers to use? Feel free to add it in below! </h4>
+                <br>
+                <br>
+                <br>
+                <br>
+
                 <!-- Dummy iframe to prevent page from redirecting to our API on submission -->
                 <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
                 <form action="http://localhost:3000/resources" method="POST" target="hiddenFrame">
-                    <input type="url" name="url" placeholder="Enter a URL here" required/>
+                    <input type="url" name="url" placeholder="Enter a URL here" required />
                     <button type="submit">Submit Resource</button>
                 </form>
 
@@ -115,81 +119,93 @@
                     and display them in some sort of list on the page. THis can be done with pure Javascript, or Jquery, or React, or any framework.
                 
                 -->
+            </div>
+        </div>
+    </section>
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Footer Logo -->
+                            <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+                            <p> </p>
 
-                <!-- Footer Area Start -->
-                <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
-                    <!-- Main Footer Area -->
-                    <div class="main-footer-area">
-                        <div class="container">
-                            <div class="row">
-                                <!-- Single Footer Widget Area -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="single-footer-widget mb-60">
-                                        <!-- Footer Logo -->
-                                        <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
-                                        <p> </p>
-
-                                        <!-- Social Info -->
-                                        <div class="social-info">
-                                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
-                                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Single Footer Widget Area -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="single-footer-widget mb-60">
-                                        <!-- Widget Title -->
-                                        <h5 class="widget-title">Contact</h5>
-
-                                        <!-- Contact Area -->
-                                        <div class="footer-contact-info">
-                                            <p><i class="zmdi zmdi-map"></i> 184 Main Collins Street</p>
-                                            <p><i class="zmdi zmdi-phone"></i> (226) 446 9371</p>
-                                            <p><i class="zmdi zmdi-email"></i> info@maps.org</p>
-                                            <p><i class="zmdi zmdi-globe"></i> www.maps.org</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Single Footer Widget Area -->
-                                <div class="col-12 col-sm-6 col-lg-3">
-                                    <div class="single-footer-widget mb-60">
-                                        <!-- Widget Title -->
-                                        <h5 class="widget-title">Workshops</h5>
-
-                                        <!-- Footer Nav -->
-                                        <ul class="footer-nav">
-                                            <li><a href="#">Intro to mycology with Paul Stamets</a></li>
-                                            <li><a href="#">PTSD and The Brain: An inside Look</a></li>
-                                            <li><a href="#">Forum Speaker Series</a></li>
-                                            <li><a href="#">Serotonin, Dopamine and GABA: What's the difference
-                                                    anyway?</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
+                            <!-- Social Info -->
+                            <div class="social-info">
+                                <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                                <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                                <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                                <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
 
-                </footer>
-                <!-- Footer Area End -->
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Widget Title -->
+                            <h5 class="widget-title">Contact</h5>
 
-                <!-- **** All JS Files ***** -->
-                <!-- jQuery 2.2.4 -->
-                <script src="js/jquery.min.js"></script>
-                <!-- Popper -->
-                <script src="js/popper.min.js"></script>
-                <!-- Bootstrap -->
-                <script src="js/bootstrap.min.js"></script>
-                <!-- All Plugins -->
-                <script src="js/confer.bundle.js"></script>
-                <!-- Active -->
-                <script src="js/default-assets/active.js"></script>
+                            <!-- Contact Area -->
+                            <div class="footer-contact-info">
+                                <p><i class="zmdi zmdi-map"></i> 184 Main Collins Street</p>
+                                <p><i class="zmdi zmdi-phone"></i> (226) 446 9371</p>
+                                <p><i class="zmdi zmdi-email"></i> info@maps.org</p>
+                                <p><i class="zmdi zmdi-globe"></i> www.maps.org</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Widget Title -->
+                            <h5 class="widget-title">Workshops</h5>
+
+                            <!-- Footer Nav -->
+                            <ul class="footer-nav">
+                                <li><a href="#">Intro to mycology with Paul Stamets</a></li>
+                                <li><a href="#">PTSD and The Brain: An inside Look</a></li>
+                                <li><a href="#">Forum Speaker Series</a></li>
+                                <li><a href="#">Serotonin, Dopamine and GABA: What's the difference anyway?</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <!-- Footer Menu -->
+                    <div class="col-12 col-md-6">
+                        <div class="footer-menu">
+                            <ul class="nav">
+                                <li><a href="#"><i class="zmdi zmdi-circle"></i> Terms of Service</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-circle"></i> Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- Footer Area End -->
+
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/confer.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
 
 </body>
 
