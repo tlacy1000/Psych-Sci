@@ -114,10 +114,9 @@
                     data: {
                         username: document.querySelector('input[name="username"]').value,
                         password: document.querySelector('input[name="password"]').value,
-                    }
-                }).then(() => {
-                    location.pathname = '/';
-                }); // TODO: Add error handling 🤠
+                    },
+                    success: () => location.pathname = '/',
+                });
             }
         </script>
         <div>
