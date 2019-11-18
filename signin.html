@@ -110,12 +110,13 @@
             function login() {
                 $.post({
                     url: 'https://submarine15fr43wae541f.herokuapp.com/login',
-                    dataType: 'json',
                     data: {
                         username: document.querySelector('input[name="username"]').value,
                         password: document.querySelector('input[name="password"]').value,
                     },
-                    success: () => location.pathname = '/',
+                }).done(() => {
+                    console.log('redirecting to homepage');
+                    location.pathname = '/';
                 });
             }
         </script>
