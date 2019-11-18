@@ -105,8 +105,22 @@
             </div>
         </div>
     </section>
-    <div class="container" style="centered">
-        <form action="/login" method="post">
+    <div class="container">
+        <script>
+            function login() {
+                $.post({
+                    url: 'https://submarine15fr43wae541f.herokuapp.com/login',
+                    dataType: 'json',
+                    data: {
+                        username: document.querySelector('input[name="username"]').value,
+                        password: document.querySelector('input[name="password"]').value,
+                    }
+                }).then(() => {
+                    location.pathname = '/';
+                }); // TODO: Add error handling 🤠
+            }
+        </script>
+        <div>
             <div>
                 <label>Username:</label>
                 <input type="text" name="username" />
@@ -116,9 +130,9 @@
                 <input type="password" name="password" />
             </div>
             <div>
-                <input type="submit" value="Log In" />
+                <button type="button" onclick="login()">Log in</button>
             </div>
-        </form>
+        </div>
     </div>
     <br>
     <br>
