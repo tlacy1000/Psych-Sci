@@ -108,12 +108,28 @@
                 <br>
                 <br>
 
-                <!-- Dummy iframe to prevent page from redirecting to our API on submission -->
-                <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
-                <form action="https://submarine15fr43wae541f.herokuapp.com/resources" method="POST" target="hiddenFrame">
+                <script>
+                    function submitResource() {
+
+                        const url = document.querySelector('input[name="url"]').value;
+
+                        $.post({
+                            url: 'https://submarine15fr43wae541f.herokuapp.com/resources',
+                            xhrFields: {
+                                withCredentials: true,
+                            },
+                            data: {
+                                url: url,
+                            },
+                        }).done(() => {
+                            console.log('successfully submitted the url', url);
+                        });
+                    }
+                </script>
+                <div>
                     <input type="url" name="url" placeholder="Enter a URL here" required />
-                    <button type="submit">Submit Resource</button>
-                </form>
+                    <button type="button" onclick="submitResource()">Submit Resource</button>
+                </div>
 
                 <!-- TODO: Need to have an inline <script> tag or something similar in which we fetch all resources from localhost:3000/resources
                     and display them in some sort of list on the page. THis can be done with pure Javascript, or Jquery, or React, or any framework.
