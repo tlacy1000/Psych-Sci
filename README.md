@@ -18,9 +18,12 @@ As a former neuroscientist, science conferences are near and dear to my heart! I
 ![Example screenshot](./img/screenshot.png)
 ​
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* [Node](https://nodejs.org) 
+* [Mongo](https://www.mongodb.com/) 
+* [Mongoose](https://mongoosejs.com/)
+* [Express](https://expressjs.com/) 
+* [Axios](https://www.npmjs.com/package/axios) 
+* [Bootstrap](https://www.mongodb.com/) 
 ​
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
