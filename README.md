@@ -23,32 +23,31 @@ As a former neuroscientist, science conferences are near and dear to my heart! I
 * [Mongoose](https://mongoosejs.com/)
 * [Express](https://expressjs.com/) 
 * [Axios](https://www.npmjs.com/package/axios) 
-* [Bootstrap](https://www.mongodb.com/) 
+* [Bootstrap](https://www.mongodb.com/)  
+* [Sass](https://sass-lang.com/)
+* [Javascript](https://www.javascript.com/)
+
 ​
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+Describe how to install / setup your local environment / add link to demo version.
 
 #Demo Check out the deployed version at https://psych-sci.herokuapp.com/
 ​
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-​
+
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Interactive schedule of speakers
+* Community resource board for sharing info about concepts covered during research talks
 ​
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Finish up community cork board for resources
+* Add in social media board, where attendees can talk about the conference and share it to the website
 ​
 ## Status
 Project is: in progress, needs several features finished up
 ​
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+Project inspired by Dr. Rick Doblin, founder of MAPS and a tireless advocate for psychedelic assisted psychotherapy, since 1985.
 ​
 ## Contact
 Created by [@tlacy1000](https://www.lacytammy.com/) - feel free to contact me!
