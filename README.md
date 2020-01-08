@@ -39,6 +39,7 @@ List of features ready and TODOs for future development
 * Interactive schedule of speakers
 * Community resource board for sharing info about concepts covered during research talks
 ​
+
 To-do list:
 * Finish up community cork board for resources
 * Add in social media board, where attendees can talk about the conference and share it to the website
