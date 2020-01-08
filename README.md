@@ -42,6 +42,8 @@ List of features ready and TODOs for future development
 To-do list:
 * Finish up community cork board for resources
 * Add in social media board, where attendees can talk about the conference and share it to the website
+* Make PDF and social network buttons work
+* Change hard coded restaurant reccomendations to a yelp or four square based recc feature
 ​
 ## Status
 Project is: in progress, needs several features finished up
