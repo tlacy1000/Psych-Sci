@@ -15,7 +15,7 @@ Psych-sci is an (unofficial) app created for the 1st annual psychedelic science 
 As a former neuroscientist, science conferences are near and dear to my heart! I'm passionate about the efficacy of psychedelic assisted psychotherapy. MAPS, the organization that hosts the Psychedelic Science Summit, is the sponsor of the first publication I ever read that piqued my interest in neuroscience. I am forever grateful to MAPS and its affiliates who continue to trailblaze the future of psychedelic assisted psychotherapy and hope that we may soon see a day where psychedelics are legalized for the medical treatment of PTSD.
 ​
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/screens/home.png)
 ​
 ## Technologies
 * [Node](https://nodejs.org) 
