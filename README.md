@@ -5,7 +5,7 @@ Psych-sci is an (unofficial) app created for the 1st annual psychedelic science 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Demo](#demo)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -31,8 +31,8 @@ As a former neuroscientist, science conferences are near and dear to my heart! I
 * [Javascript](https://www.javascript.com/)
 
 ​
-## Setup
-Describe how to install / setup your local environment / add link to demo version.
+## Demo
+
 
 #Demo Check out the deployed version at https://psych-sci.herokuapp.com/
 ​
